@@ -46,6 +46,13 @@ safelink/
 │   ├── accident_severity_supervised_mixup_v3/
 │   └── Accident Severity Detection.ipynb
 │
+├── screenshots/            # Screenshots for README
+│   ├── app_home.png
+│   ├── app_login.png
+│   ├── app_register.png
+│   ├── web_dashboard.png
+│   └── web_login.png
+│
 ├── requirements.txt        # Python dependencies
 ├── package.json            # Node.js dependencies
 ├── pubspec.yaml            # Flutter dependencies
@@ -122,17 +129,17 @@ jupyter notebook
 ## 📸 Screenshots
 
 ### Mobile App
-
-* Login & Registration
-* Emergency Map with Incident Reporting
+<p align="center">
+  <img src="screenshots/app_login.png" alt="Login" width="250"/>
+  <img src="screenshots/app_register.png" alt="Register" width="250"/>
+  <img src="screenshots/app_home.png" alt="Home" width="250"/>
+</p>
 
 ### Web Dashboard
-
-* Dashboard Overview with Live Map
-* Incident Management
-* User Management
-
-
+<p align="center">
+  <img src="screenshots/web_login.png" alt="Web Login" width="400"/>
+  <img src="screenshots/web_dashboard.png" alt="Dashboard" width="400"/>
+</p>
 ---
 
 ## 🔐 Roles & Permissions
