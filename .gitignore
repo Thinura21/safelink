@@ -1,0 +1,42 @@
+# --- Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Node/JS
+node_modules/
+npm-debug.log*
+
+# --- Flutter/Dart
+**/build/
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins*
+**/.metadata
+
+# --- Android / iOS
+android/.gradle/
+android/.idea/
+*.iml
+ios/Pods/
+ios/DerivedData/
+*.xcworkspace
+
+# --- OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- ML artifacts (optional; keep if you don't want them in git)
+*.h5
+*.hdf5
+*.ckpt
+*.tflite
+*.pth
+*.pt
+*.onnx
